@@ -1,0 +1,155 @@
+/* --- header --- */
+.c-azul {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif
+}
+
+.c-azul:hover {
+    color: red;
+}
+
+/* --- main --- */
+.container-tarjeta {
+    width: 80%;
+    display: flex;
+    margin: 2rem auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-promo {
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+
+.tarjeta {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    margin: 2rem;
+    border-radius: 3px;
+    box-shadow: 2px 1px 5px;
+    transition: all 400ms ease;
+}
+
+.tarjeta:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+.tarjeta h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.tarjeta a {
+
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.tarjeta a:hover {
+    justify-content: center;
+    background-color: white;
+    color: blue;
+
+
+}
+
+.tarjeta span {
+    padding: 20px;
+    text-align: center;
+    color: rgb(2, 35, 133);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+/* --- form --- */
+
+.como-comprar{
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.txt-como-comp{
+text-align: center;
+margin-top: 40px;
+}
+
+.contenedor-for{
+    width: 400px;
+    background: gray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+} 
+.contenedor-for h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.campo{
+    width: 100%;
+    background-color: rgb(177, 177, 177);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.contenedor-for p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px ;
+}
+.contenedor-for a:hover{
+color: white;
+text-decoration: underline;
+
+
+}
+.contenedor-for .botons{
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    padding: 20px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px 0;
+    
+
+}
+
+
+/* --- Footer --- */
+.c-negro {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif
+}
+
+.c-azul-footer {
+    color: blue;
+}
+
+.c-azul-redes {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif
+}
+
+.c-azul-redes:hover {
+    color: red;
+}
