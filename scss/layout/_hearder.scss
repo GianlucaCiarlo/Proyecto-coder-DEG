@@ -1,0 +1,10 @@
+.c-azul{
+    color: $color-azul;
+    font-family: $font-HyF;
+    &:hover{
+        color: $color-rojo;
+    }
+}
+.h1-index{
+    font-size: 25px;
+}

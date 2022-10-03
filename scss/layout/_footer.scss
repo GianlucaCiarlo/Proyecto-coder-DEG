@@ -1,0 +1,16 @@
+.c-negro{
+    font-family: $font-HyF;
+    color: $color-font;
+}
+
+.c-azul-footer{
+    color: $color-azul;
+}
+
+.c-azul-redes{
+    font-family: $font-HyF;
+    color: $color-azul;
+    &:hover{
+        color: $color-rojo;
+    }
+}

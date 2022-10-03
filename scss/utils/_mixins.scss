@@ -1,0 +1,53 @@
+@mixin tarjeta-custom {
+    text-align: center;
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    margin: 2rem;
+    border-radius: 3px;
+    box-shadow: 2px 1px 5px;
+    transition: all 400ms ease;
+
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+        transform: translateY(-3%);
+    }
+
+    h3 {
+        font-family: $font-1;
+        color: $color-font;
+    }
+
+    a {
+        text-decoration: none;
+        display: inline-flex;
+        padding: 10px;
+        background-color: $color-azul;
+        color: $color-blanco;
+        border: 1px solid $color-azul;
+        border-radius: 3px;
+        margin: 20px;
+        &:hover{
+            justify-content: center;
+            background-color: $color-blanco;
+            color: $color-azul;
+        }
+    }
+
+
+    span {
+        padding: 20px;
+        text-align: center;
+        color: $color-span;
+        font-family: $font-2;
+        font-size: large;
+    }
+}
+
+
+@mixin titulos {
+    text-align: center;
+    color: $color-font;
+    font-size: 30px;
+    
+}

@@ -39,29 +39,12 @@
   font-size: large;
 }
 
-.titulosh2 {
-  text-align: center;
-  color: black;
-  font-size: 30px;
-}
-
-.quienes-somos {
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 20px;
-  padding: 20px 10px;
-}
-
 .c-azul {
   color: blue;
   font-family: Georgia, "Times New Roman", Times, sans-serif;
 }
 .c-azul:hover {
   color: rgb(218, 47, 55);
-}
-
-.h1-index {
-  font-size: 25px;
 }
 
 .c-negro {
@@ -136,52 +119,4 @@
   border: 1px solid white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18px;
-}
-
-.form-contacto {
-  display: inline-block;
-  width: 450px;
-  margin: auto;
-  background-color: royalblue;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  border-radius: 7px;
-  box-shadow: 7px 13px 37px gray;
-}
-.form-contacto h3 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-.form-contacto input, .form-contacto textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-}
-.form-contacto textarea {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
-}
-.form-contacto .boton-f {
-  width: 100%;
-  background-color: white;
-  border: none;
-  padding: 20px;
-  color: black;
-  margin: 16px 0;
-  font-size: 16px 0;
-}
-.form-contacto .boton-f:hover {
-  justify-content: center;
-  background-color: rgb(218, 47, 55);
-  color: black;
-}
-
-/*# sourceMappingURL=stylos.css.map */
+}/*# sourceMappingURL=main.css.map */

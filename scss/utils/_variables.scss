@@ -1,0 +1,28 @@
+@import 'mixins' ;
+$color-azul: blue;
+$color-rojo: rgb(218, 47, 55);
+$color-blanco: white;
+$color-span:rgb(2, 35, 133);
+$color-font: black;
+$color-form: royalblue;
+$color-shadow-for: gray;
+$font-1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$font-2: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-HyF: Georgia, 'Times New Roman', Times, sans-serif;
+
+
+
+.tarjeta{
+    @include tarjeta-custom();
+}
+
+.titulosh2{
+    @include titulos ();
+}
+
+.quienes-somos{
+    text-align: center;
+    font-family: $font-1;
+    font-size: 20px;
+    padding: 20px 10px;
+}
