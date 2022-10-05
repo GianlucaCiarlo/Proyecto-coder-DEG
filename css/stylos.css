@@ -1,3 +1,16 @@
+.titulos-secciones {
+  text-align: center;
+  color: rgb(218, 47, 55);
+  font-size: 2em;
+}
+
+.quienes-somos {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  padding: 20px 10px;
+}
+
 .tarjeta {
   text-align: center;
   background-color: transparent;
@@ -39,19 +52,76 @@
   font-size: large;
 }
 
-.titulosh2 {
+.tarjeta {
   text-align: center;
-  color: black;
-  font-size: 30px;
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  margin: 2rem;
+  border-radius: 3px;
+  box-shadow: 2px 1px 5px;
+  transition: all 400ms ease;
 }
-
-.quienes-somos {
-  text-align: center;
+.tarjeta:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  transform: translateY(-3%);
+}
+.tarjeta h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 20px;
-  padding: 20px 10px;
+  color: black;
+}
+.tarjeta a {
+  text-decoration: none;
+  display: inline-flex;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 3px;
+  margin: 20px;
+}
+.tarjeta a:hover {
+  justify-content: center;
+  background-color: white;
+  color: blue;
+}
+.tarjeta span {
+  padding: 20px;
+  text-align: center;
+  color: rgb(2, 35, 133);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
 }
 
+@media (min-width: 340px) and (max-width: 400px) {
+  .contenedor-for {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    margin: 100px;
+  }
+  .form-i-s {
+    width: 300px;
+  }
+}
+.mapa-google {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 370px) {
+  .mapa-google {
+    align-items: center;
+    padding-left: 35px;
+    width: 340px;
+    height: auto;
+  }
+  .mapa-google .form-contacto {
+    align-items: center;
+    width: 200px;
+    height: 150px;
+  }
+}
 .c-azul {
   color: blue;
   font-family: Georgia, "Times New Roman", Times, sans-serif;
@@ -62,8 +132,14 @@
 
 .h1-index {
   font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, sans-serif;
 }
 
+@media (max-width: 350px) {
+  .h1-index {
+    font-size: 20px;
+  }
+}
 .c-negro {
   font-family: Georgia, "Times New Roman", Times, sans-serif;
   color: black;
@@ -140,7 +216,7 @@
 
 .form-contacto {
   display: inline-block;
-  width: 450px;
+  width: 400px;
   margin: auto;
   background-color: royalblue;
   padding: 10px 20px;

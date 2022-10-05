@@ -2,6 +2,7 @@
 $color-azul: blue;
 $color-rojo: rgb(218, 47, 55);
 $color-blanco: white;
+$color-titulos: rgb(218, 47, 55);
 $color-span:rgb(2, 35, 133);
 $color-font: black;
 $color-form: royalblue;
@@ -12,12 +13,10 @@ $font-HyF: Georgia, 'Times New Roman', Times, sans-serif;
 
 
 
-.tarjeta{
-    @include tarjeta-custom();
-}
 
-.titulosh2{
-    @include titulos ();
+
+.titulos-secciones{
+    @include titulos-secciones ();
 }
 
 .quienes-somos{

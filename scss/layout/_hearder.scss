@@ -1,10 +1,20 @@
-.c-azul{
+.c-azul {
     color: $color-azul;
     font-family: $font-HyF;
-    &:hover{
+
+    &:hover {
         color: $color-rojo;
     }
 }
-.h1-index{
+
+.h1-index {
     font-size: 25px;
+    font-family: $font-HyF;
+}
+
+@media(max-width: 350px) {
+    .h1-index {
+        font-size: 20px;
+    }
+    
 }

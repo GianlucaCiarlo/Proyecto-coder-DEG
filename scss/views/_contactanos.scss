@@ -1,0 +1,20 @@
+
+    .mapa-google {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+@media(max-width: 370px) {
+    .mapa-google {
+        align-items: center;
+        padding-left: 35px;
+        width: 340px;
+        height: auto;
+
+        .form-contacto {
+            align-items: center;
+            width: 200px;
+            height: 150px;
+        }
+    }
+}

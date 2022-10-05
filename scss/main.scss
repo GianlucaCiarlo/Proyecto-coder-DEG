@@ -2,6 +2,13 @@
 @import "./utils/mixins";
 @import "./utils/functions";
 
+@import "./views/index";
+@import "./views/promociones";
+@import "./views/comprar";
+@import "./views/iniciar-sesion";
+@import "./views/quienes-somos";
+@import "./views/contactanos";
+
 @import "./base/reset";
 @import "./base/typo";
 
